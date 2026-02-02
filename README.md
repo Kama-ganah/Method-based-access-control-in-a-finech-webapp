@@ -1,7 +1,7 @@
 # Overview
 During an assessment of the application’s administrative functionality, I identified a high-severity access control vulnerability stemming from reliance on HTTP methods for privilege enforcement. The system restricted administrative actions based on request methods (e.g., POST), but failed to enforce the same checks for alternate methods such as GET. By manipulating the HTTP method, a non-privileged user was able to bypass access restrictions and escalate their privileges to administrator.
 
-# Steps Undertaken
+# Methodology
 
 Step 1: Logged in as both admin and non-admin users to understand normal access restrictions.
 
